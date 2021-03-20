@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <!-- Plotly chart will be drawn inside this DIV -->
+    <h3>Monthly Global Land-Surface Temperature</h3>
+    <h4>1753 - 2015</h4>
+    <p>
+      Temperatures are in Celsius and reported as anomalies relative to the Jan
+      1951-Dec 1980 average. Estimated Jan 1951-Dec 1980 absolute temperature ℃:
+      8.66 +/- 0.07
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="chart">
+            <!-- Plotly chart will be drawn inside this DIV -->
+          </div>
+        </div>
+        <div id="description"></div>
+      </div>
+    </div>
+    <script src="../scripts/heatmap2d.js"></script>
+  </body>
+</html>

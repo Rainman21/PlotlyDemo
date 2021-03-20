@@ -1,0 +1,25 @@
+{
+  "name": "plotlydemo",
+  "version": "1.0.0",
+  "description": "demo of ploty functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rainman21/PlotlyDemo.git"
+  },
+  "keywords": [
+    "plotly"
+  ],
+  "author": "Rick Sprenkle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rainman21/PlotlyDemo/issues"
+  },
+  "homepage": "https://github.com/Rainman21/PlotlyDemo#readme",
+  "dependencies": {
+    "plotly.js": "^1.58.4"
+  }
+}
